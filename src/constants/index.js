@@ -45,6 +45,7 @@ export const PROJECTS = [
     description:
       "Made this project,worked on forms pagination also used toast,storing data in localstorage. In this project users can create their own project",
     technologies: ["HTML", "TailwindCSS", "ReactJS"],
+    link: "https://elaborate-donut-e9b78c.netlify.app/",
   },
   {
     title: "Business Profile Page",
@@ -52,6 +53,7 @@ export const PROJECTS = [
     description:
       "Made this project,used toast,storing data in localstorage. In this project users can create their own business profile.",
     technologies: ["HTML", "TailwindCSS", "ReactJS"],
+    link: "https://businessprofilepage.netlify.app/",
   },
   {
     title: "Login Functionality",
@@ -59,6 +61,7 @@ export const PROJECTS = [
     description:
       " Login functionality with otp verification.Where users, doctors and admins can login by providing the OTP.",
     technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "Express"],
+    link: "https://github.com/Abhishek-Mahanta/l_otp.git",
   },
   {
     title: "OTP verification",
@@ -66,6 +69,7 @@ export const PROJECTS = [
     description:
       "OTP verification,where users, doctors and admins will provide otp for login.",
     technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "Express"],
+    link: "https://github.com/Abhishek-Mahanta/l_otp.git",
   },
   {
     title: "Personal Portfolio",
@@ -73,6 +77,7 @@ export const PROJECTS = [
     description:
       "Developed my own portfolio .",
     technologies: ["HTML", "TailwindCSS", "ReactJS"],
+    link: "https://react-portfolio-seven-blue.vercel.app/",
   },
   {
     title: "Todo-List",
@@ -80,6 +85,7 @@ export const PROJECTS = [
     description:
       "Developed a todo list web page where users can add their daily todos,cut their todos(which will make the difference between marked and unmarked todos) and users can also edit and delete their todos.",
     technologies: ["HTML", "CSS", "ReactJS", "UUid"],
+    link: "https://todolistwebsiteapplication.netlify.app",
   },
 ];
 
