@@ -20,21 +20,21 @@ export const EXPERIENCES = [
     role: "Web Developer Intern",
     company: " Petwale365",
     description: `Maintain web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Worked in OTP verfication.`,
-    technologies: ["Javascript", "React.js", "MERN Stack", "mongoDB"],
+    technologies: ["Javascript", "React.js", "MERN Stack", "MongoDB"],
   },
   {
     year: "Jan 2023 - May 2023",
     role: "Web Developer Intern",
     company: " Zephyr Solutions",
     description: `Designed and developed user interfaces for online developers community forum. Worked closely with backend developers to integrate frontend components. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "PHP", "mySQL"],
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
   },
   {
     year: "Jan 2021 - May 2021",
     role: "Web Developer Intern",
     company: " Zephyr Solutions",
     description: `Developed and maintained web applications for online employee attendance syatem. Designed and implemented for data communication. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "PHP", "mySQL"],
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
   },
 ];
 
@@ -60,7 +60,7 @@ export const PROJECTS = [
     image: project3,
     description:
       " Login functionality with otp verification.Where users, doctors and admins can login by providing the OTP.",
-    technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "Express"],
+    technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
     link: "https://github.com/Abhishek-Mahanta/l_otp.git",
   },
   {
@@ -68,16 +68,8 @@ export const PROJECTS = [
     image: project4,
     description:
       "OTP verification,where users, doctors and admins will provide otp for login.",
-    technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "Express"],
+    technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
     link: "https://github.com/Abhishek-Mahanta/l_otp.git",
-  },
-  {
-    title: "Personal Portfolio",
-    image: project6,
-    description:
-      "Developed my own portfolio .",
-    technologies: ["HTML", "TailwindCSS", "ReactJS"],
-    link: "https://react-portfolio-seven-blue.vercel.app/",
   },
   {
     title: "Todo-List",

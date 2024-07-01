@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../constants"
 import profilepic from "../assets/abhishek.jpeg";
 import { motion } from "framer-motion"
+import { TypeAnimation } from "react-type-animation";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -27,7 +28,20 @@ const Hero = () => {
                             initial="hidden"
                             animate="visible"
                             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 
-                        bg-clip-text text-3xl tracking-tight text-transparent">Front-End Developer</motion.span>
+                        bg-clip-text text-3xl tracking-tight text-transparent">
+                            <TypeAnimation
+                                sequence={[
+                                    "FRONT-END DEVELOPER",
+                                    1000,
+                                    "FRONT-END CODER",
+                                    1000,
+                                    "WEB DESIGNER",
+                                    1000,
+                                ]}
+                                speed={50}
+                                repeat={Infinity}
+                            />
+                            </motion.span>
                         <motion.p
                             variants={container(1)}
                             initial="hidden"

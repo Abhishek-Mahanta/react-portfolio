@@ -5,6 +5,9 @@ import { FaCss3Alt } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { BiLogoMongodb } from "react-icons/bi";
+import { FaGitAlt } from "react-icons/fa";
 import { motion } from "framer-motion"
 
 const iconVariants = (duration) => ({
@@ -55,7 +58,7 @@ const Technologies = () => {
                     <FaHtml5 className="text-7xl text-orange-700" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(2)}
+                    variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-900 p-4">
@@ -81,6 +84,27 @@ const Technologies = () => {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-900 p-4">
                     <SiVite className="text-7xl bg-gradient-to-r from-cyan-300 via-slate-500 to-purple-500" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(2)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-900 p-4">
+                    <FaNodeJs className="text-7xl text-green-400" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-900 p-4">
+                    <BiLogoMongodb className="text-7xl text-green-900" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-900 p-4">
+                    <FaGitAlt className="text-7xl text-orange-700" />
                 </motion.div>
             </motion.div>
         </div>
