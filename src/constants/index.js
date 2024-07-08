@@ -60,7 +60,7 @@ export const PROJECTS = [
     image: project3,
     description:
       " Login functionality with otp verification.Where users, doctors and admins can login by providing the OTP.",
-    technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
+    technologies: ["HTML", "TailwindCSS", "ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
     link: "https://github.com/Abhishek-Mahanta/l_otp.git",
   },
   {
@@ -68,7 +68,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "OTP verification,where users, doctors and admins will provide otp for login.",
-    technologies: ["HTML", "CSS", "ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
+    technologies: ["HTML", "TailwindCSS", "ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
     link: "https://github.com/Abhishek-Mahanta/l_otp.git",
   },
   {
@@ -76,8 +76,16 @@ export const PROJECTS = [
     image: project5,
     description:
       "Developed a todo list web page where users can add their daily todos,cut their todos(which will make the difference between marked and unmarked todos) and users can also edit and delete their todos.",
-    technologies: ["HTML", "CSS", "ReactJS", "UUid"],
+    technologies: ["HTML", "TailwindCSS", "ReactJS", "UUid"],
     link: "https://todolistwebsiteapplication.netlify.app",
+  },
+  {
+    title: "Memory Game",
+    image: project6,
+    description:
+      "Developed a memory game web page where users can play this game.",
+    technologies: ["HTML", "TailwindCSS", "ReactJS","Typescript"],
+    link: "https://memory-game-beta-orpin.vercel.app/",
   },
 ];
 
